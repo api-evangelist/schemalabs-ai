@@ -1,4 +1,4 @@
-# schemalabs-ai
+# SchemaLabs
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-schemalabs-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://schemalabs.ai/
+SchemaLabs builds a data language model platform that unlocks the value of structured business data. By providing a foundation model for tabular data, SchemaLabs enables developers to map, understand, and predict from raw tables without extensive preprocessing or labeling. The company aims to democratize AI development for data-intensive applications, offering tools for cross-database mapping, sector identification, and missing‑value imputation across any vertical at scale.
+
+**Areas:** AI · Data · Platform · MachineLearning · StructuredData · Company
+
+## SchemaLabs on APIs.io
+
+Everything profiled for SchemaLabs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/schemalabs-ai/](https://apis.io/providers/schemalabs-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SchemaLabs API](https://apis.io/apis/schemalabs-ai/schemalabs-api/) — API for managing schemas, models, jobs, and usage on SchemaLabs platform.
+- [SchemaLabs API](https://apis.io/apis/schemalabs-ai/schemalabs-ai-api/) — SchemaLabs API as documented publicly: 29 operations. Contract generated from the documentation by API Evangelist (2026-11-24); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetV2EndpointsIdLogsResponse](https://apis.io/schemas/schemalabs-ai/schemalabs-ai-get-v2-endpoints-id-logs-response/)
+- [GetV2EndpointsIdResponse](https://apis.io/schemas/schemalabs-ai/schemalabs-ai-get-v2-endpoints-id-response/)
+- [PostV2EndpointsIdRefreshResponse](https://apis.io/schemas/schemalabs-ai/schemalabs-ai-post-v2-endpoints-id-refresh-response/)
+- [PostV2EndpointsIdUpgradeRequest](https://apis.io/schemas/schemalabs-ai/schemalabs-ai-post-v2-endpoints-id-upgrade-request/)
+- [PostV2EndpointsIdUpgradeResponse](https://apis.io/schemas/schemalabs-ai/schemalabs-ai-post-v2-endpoints-id-upgrade-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Schemalabs Ai Context](https://apis.io/jsonld/schemalabs-ai/schemalabs-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SchemaLabs API Rules](https://apis.io/rules/schemalabs-ai/schemalabs-ai-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SchemaLabs Authentication](https://apis.io/security/schemalabs-ai/schemalabs-ai-authentication/)
+- [SchemaLabs Domain Security](https://apis.io/security/schemalabs-ai/schemalabs-ai-domain-security/)
+- [SchemaLabs Trust Center](https://apis.io/security/schemalabs-ai/schemalabs-ai-trust-center/)
+- [SchemaLabs Vulnerability Disclosure](https://apis.io/security/schemalabs-ai/schemalabs-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SchemaLabs Plans Pricing](https://apis.io/plans/schemalabs-ai/schemalabs-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://schemalabs.ai/)
+- [Documentation](https://docs.schemalabs.ai/)
+- [Getting started](https://docs.schemalabs.ai/quickstart)
+- [API reference](https://docs.schemalabs.ai/api/)
+- [Pricing](https://schemalabs.ai/pricing)
+- [Changelog](https://docs.schemalabs.ai/changelog)
+- [Security](https://schemalabs.ai/security)
+- [Compliance](https://schemalabs.ai/trust)
+- [Terms of service](https://schemalabs.ai/terms)
+- [Privacy policy](https://schemalabs.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.2** — strong · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.8 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 61.3 |
+
+**Agent readiness 35.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/schemalabs-ai/](https://apis.io/providers/schemalabs-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SchemaLabs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/schemalabs-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
